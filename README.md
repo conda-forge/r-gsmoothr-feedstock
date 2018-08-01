@@ -14,14 +14,16 @@ Summary: Tools rewritten in C for various smoothing tasks
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-gsmoothr-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-gsmoothr-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-gsmoothr-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-gsmoothr-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-gsmoothr-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-gsmoothr-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-gsmoothr-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-gsmoothr-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-gsmoothr-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-gsmoothr-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-gsmoothr-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-gsmoothr-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-gsmoothr/badges/version.svg)](https://anaconda.org/conda-forge/r-gsmoothr)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-gsmoothr/badges/downloads.svg)](https://anaconda.org/conda-forge/r-gsmoothr)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--gsmoothr-green.svg)](https://anaconda.org/conda-forge/r-gsmoothr) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-gsmoothr.svg)](https://anaconda.org/conda-forge/r-gsmoothr) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-gsmoothr.svg)](https://anaconda.org/conda-forge/r-gsmoothr) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-gsmoothr.svg)](https://anaconda.org/conda-forge/r-gsmoothr) |
 
 Installing r-gsmoothr
 =====================
@@ -66,6 +68,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
